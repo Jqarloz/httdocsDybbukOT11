@@ -1,0 +1,62 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<title>Pago De Servicio</title>
+<meta name="" content="">
+</head>
+<body>
+
+<form>
+
+<h3>Pago De Servicio</h3><br/>
+
+<table>
+
+<tr> 
+<td>Fecha inicio: </td>
+<td><input type="date" name="fechainicio"/></td>
+</tr>
+
+<tr> 
+<td>Fecha final: </td>
+<td><input type="date" name="fechafinal"/></td>
+</tr>
+
+	<tr>
+		<td>Tipo de servicio: </td>
+		<td><select name="tipopago">
+		   <option></option>
+			<option value="luz">Luz</option>
+			<option value="agua">Agua</option>
+			<option value="renta">Renta</option>
+			<option value="telefonia">Telefonia Internet</option>
+			<option value="cable">Cable Television</option>
+			<option value="otros">Otros</option>
+			
+			
+		</select></td>
+		
+		
+		
+	</tr>
+	<tr>
+		<td>Descripcion:Especifique </td>
+		<td><textarea name="desc"> </textarea></td>
+	</tr>
+	<tr>
+		<td>Pago total: </td>
+		<td><input type="number" name="total"/></td>
+	</tr>
+	
+	
+	<tr>
+	<td colspan="2" align="center"><input type="submit" name="enviar" value="Enviar"/>&nbsp;&nbsp;&nbsp;<input type="button" name="cancelar" value="Cancelar"/></td>
+	</tr>
+	
+</table>
+	
+	
+</form>
+
+</body>
+</html>
